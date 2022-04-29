@@ -5,7 +5,7 @@ import {Text, View} from 'react-native';
 const Home = () => {
   return (
     <View>
-      <Text>Home</Text>
+      <Text style={{backgroundColor:"red"}}>Homeeeeeeeeeeee</Text>
       <Icon name="rocket" size={30} color="#900" />
     </View>
   );

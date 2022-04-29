@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		6172F2D35A4C3AA820D92908 /* libPods-RNComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-RNComponents.a */; };
+		75ACDFFE281C8336008A145E /* Ionicons.js in Resources */ = {isa = PBXBuildFile; fileRef = 75ACDFFD281C8336008A145E /* Ionicons.js */; };
 		7EF68E3733C33B6898317E18 /* libPods-RNComponents-RNComponentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-RNComponents-RNComponentsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		1D0AE47A65C8663E3B452821 /* Pods-RNComponents-RNComponentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNComponents-RNComponentsTests.release.xcconfig"; path = "Target Support Files/Pods-RNComponents-RNComponentsTests/Pods-RNComponents-RNComponentsTests.release.xcconfig"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-RNComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-RNComponents-RNComponentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNComponents-RNComponentsTests.debug.xcconfig"; path = "Target Support Files/Pods-RNComponents-RNComponentsTests/Pods-RNComponents-RNComponentsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75ACDFFD281C8336008A145E /* Ionicons.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = Ionicons.js; path = "../../node_modules/react-native-vector-icons/Ionicons.js"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNComponents/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-RNComponents-RNComponentsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNComponents-RNComponentsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-RNComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNComponents.debug.xcconfig"; path = "Target Support Files/Pods-RNComponents/Pods-RNComponents.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		75ACDFFC281C82C3008A145E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				75ACDFFD281C8336008A145E /* Ionicons.js */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				75ACDFFC281C82C3008A145E /* Fonts */,
 				13B07FAE1A68108700A75B9A /* RNComponents */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNComponentsTests */,
@@ -145,7 +156,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-RNComponents-RNComponentsTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-RNComponents-RNComponentsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -244,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				75ACDFFE281C8336008A145E /* Ionicons.js in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
